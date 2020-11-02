@@ -16,7 +16,7 @@ let currentFrame=0;
 var plate_mesh;
 var camera_traj,index=0;
 var video;
-var action
+var action;
 //
 // function loadTextures(urls, callback) {
 //
