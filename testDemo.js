@@ -136,7 +136,7 @@ function init() {
 
         // model
         const loader = new FBXLoader();
-        loader.load( 'dog_tiktok_final.fbx', function ( object ) {
+        loader.load( 'img/dog_tiktok_final.fbx', function ( object ) {
             // loader.load( 'Samba Dancing.fbx', function ( object ) {
             mixer = new THREE.AnimationMixer( object );
             // object.traverse( function ( child ) {
